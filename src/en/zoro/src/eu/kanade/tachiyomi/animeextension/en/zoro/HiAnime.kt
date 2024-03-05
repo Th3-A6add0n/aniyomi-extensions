@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package eu.kanade.tachiyomi.animeextension.en.zoro
 
 import eu.kanade.tachiyomi.animesource.model.Video

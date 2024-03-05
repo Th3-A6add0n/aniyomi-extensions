@@ -1,3 +1,5 @@
+@file:Suppress("unused", "NAME_SHADOWING")
+
 package eu.kanade.tachiyomi.multisrc.zorotheme
 
 import android.app.Application

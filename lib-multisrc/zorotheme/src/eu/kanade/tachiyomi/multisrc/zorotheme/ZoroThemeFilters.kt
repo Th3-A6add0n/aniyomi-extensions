@@ -1,3 +1,5 @@
+@file:Suppress("MemberVisibilityCanBePrivate", "PropertyName")
+
 package eu.kanade.tachiyomi.multisrc.zorotheme
 
 import eu.kanade.tachiyomi.animesource.model.AnimeFilter
