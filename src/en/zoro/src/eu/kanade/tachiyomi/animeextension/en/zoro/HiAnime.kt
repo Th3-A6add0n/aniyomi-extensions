@@ -17,8 +17,8 @@ class HiAnime : ZoroTheme(
     override val ajaxRoute = "/v2"
 
     override val hosterNames: List<String> = listOf(
-        "Vidstreaming",
-        "MegaCloud",
+        "HD-1",
+        "HD-2",
         "StreamTape",
     )
 
@@ -32,7 +32,7 @@ class HiAnime : ZoroTheme(
                     ?.let(::listOf)
                     ?: emptyList()
             }
-            "Vidstreaming", "MegaCloud" -> megaCloudExtractor.getVideosFromUrl(server.link, server.type, server.name)
+            "HD-1", "HD-2" -> megaCloudExtractor.getVideosFromUrl(server.link, server.type, server.name)
             else -> emptyList()
         }
     }
